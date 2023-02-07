@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="https://cdn-icons-png.flaticon.com/512/190/190708.png" alt="imagem calculadora">
+            <h1>
+                <span>CALCULADORA</span>
+                <span>HORA DE TRABALHO</span>
+            </h1>
+        </header>
+
+        <div class="form">
+            <form id="form">
+                <label for="horas-diarias">Horas diárias trabalhadas </label>
+                <input type="number" id="horas-diarias"> </input>
+                <label for="dias-mes">Dias trabalhados no mes: </label>
+                <input type="number" id="dias-mes"> </input>
+                <label for="despesas">Despesas fixas mensais: </label>
+                <input type="number" id="despesas"> </input>
+                <label for="equipamentos">Valor do seu equipamento:</label>
+                <input type="number" id="equipamentos"> </input>
+                <button id="calcular">CALCULAR</button>
+            </form>
+        </div>
+
+        <div class="resultado hidden" id="resultado">
+            <span>VALOR DA HORA TRABALHADA </span>
+            <span id="valor-total"> R$ 00.00</span>
+            <p>
+                Nesse valor você irá cobrir suas despesas e ter 50% de lucro
+            <p>
+        </div>
+    </div>
+<script  src="calculadora.js"></script>
+</body>
+
+</html>
